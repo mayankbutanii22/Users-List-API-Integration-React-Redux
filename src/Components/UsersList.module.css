@@ -210,21 +210,58 @@
   }
 }
 
+
+
+
 /* Mobile (max-width: 480px) */
 @media (max-width: 480px) {
   .container {
-    margin-top: 110px;
+    margin-top: 100px;
     padding: 12px;
+    width: 100%; 
+    box-sizing: border-box; 
   }
+
   .list {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; 
+    gap: 10px; 
   }
-  .btn, .editBtn, .saveBtn {
+
+  
+
+  .search {
+    width: 100%;
+    padding: 8px 10px;
     font-size: 13px;
-    padding: 5px 10px;
+    box-sizing: border-box;
   }
-  .input, .search {
-    font-size: 12px;
-    padding: 5px 6px;
+
+  .controls {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  width: 100%;
+}
+.input{
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+
+  .addForm {
+    display: flex;
+    flex-direction: column; 
+    gap: 8px;
+    width: 100%;
+  }
+
+
+
+  .btn {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 13px;
+    box-sizing: border-box;
   }
 }
