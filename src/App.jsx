@@ -2,7 +2,7 @@ import React from 'react';
 import UsersList from './Components/UsersList';
 import styles from './Components/Header.module.css';
 
-export default function App() {
+function App() {
   return (
     <div>
       <header className={styles.header}>
@@ -18,4 +18,4 @@ export default function App() {
     </div>
   );
 }
-
+export default App;

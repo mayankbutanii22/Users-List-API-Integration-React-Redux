@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchUsers, setSearch, addUser, updateUser, deleteUser } from '../redux/usersSlice';
+import { fetchUsers, setSearch, addUser, updateUser, deleteUser } from '../Redux/usersSlice';
 import styles from './UsersList.module.css';
 
 function UsersList() {
